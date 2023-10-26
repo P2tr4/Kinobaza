@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+    <meta name="description" content="Kinobaza is a portal about cinema" />
+    <meta name="keywords" content="movies, movies online, hd" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo">
+            <div class="logo_text">
+                <h1><a href="index.html">Kinobaza</a></h1>
+                <h2>Cinema is our passion!</h2>
+            </div>
+        </div>
+    
+        <nav class="menubar">
+            <ul class="menu">
+                <li> <a href="index.html"><img src="assets/img/rus_language.png" alt="Флаг Великобритании" class="flag-icon" width="50" height="30"></a></li>
+                <li class="selected"><a href="index_eng.html">Main</a></li>
+                <li><a href="films.html">Films</a></li>
+                <li><a href="#">Serials</a></li>
+                <li><a href="rating.html">Rating of films</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site_content">
+        
+        <aside class="sidebar_container">
+            <section class="sidebar">
+                <h2>Search</h2>
+                <form method="post" action="#" id="search_form">
+                    <input type="search" name="search_field" placeholder="your request" >
+                    <input type="submit" class="btn" value="найти" />
+                </form>
+            </section>
+
+            <section class="sidebar">
+                <h2>Entrance</h2>
+                <form method="post" action="#" id="login">
+                    
+                    <input type="text" name="login_field" placeholder="login" />
+                    <input type="password" name="password_field" placeholder="password" />
+                    <input type="submit" class="btn" value="enter" />
+                    <div class="lables_passreg_text">
+                        <span><a href="#">forgotten password?</a></span> | <span><a href="#">registration</a></span>
+                    </div>
+                    
+                </form>
+            </section>
+
+            <section class="sidebar">
+                <h2>News</h2>
+                <span>31.02.2018</span>
+                <p>We have launched an advanced search</p>
+                <a href="#">read</a>
+            </section>
+
+            <section class="sidebar">
+                <h2>Rating of films</h2>
+                <ul>
+                    <li><a href="show.html">Interstellar</a><span class="rating_sidebar">8.1</span></li>
+                    <li><a href="#">Matrix</a><span class="rating_sidebar">8.0</span></li>
+                    <li><a href="#">Mad Max</a><span class="rating_sidebar">7.5</span></li>
+                    <li><a href="#">Cloud Atlas</a><span class="rating_sidebar">7.4</span></li>
+                </ul>
+            </section>
+        </aside>
+
+        <section class="content">
+            <h1>New movies</h1>
+
+            <section class="films_block">
+                <a href="#"><img src="assets/img/matrix.png"></a>
+                <a href="#"><img src="assets/img/max.png"></a>
+                <a href="show.html"><img src="assets/img/inter.png"></a>
+                <a href="#"><img src="assets/img/cloud.png"></a>
+            </section>
+
+            <h1>New series</h1>
+
+            <section class="films_block">
+                <a href="#"><img src="assets/img/dead.png"></a>
+                <a href="#"><img src="assets/img/silicon.png"></a>
+                <a href="#"><img src="assets/img/breakingbad.png"></a>
+                <a href="#"><img src="assets/img/xfiles.png"></a>
+            </section>
+
+            <article class="posts">
+                <hr>
+                <h2><a href="#">How Interstellar was filmed</a></h2>
+                <div class="posts_content">
+                    <p>
+                        Christopher Nolan is 45 years old - one of the most successful directors of our time, whose works are equally loved by both discerning critics and ordinary viewers. The film was originally handled by Paramount Studio. When Christopher Nolan took over as director, Warner Bros. studio, which produced his last films, achieved participation in the project.
+                    </p>
+                </div>
+                <p><a href="#">read</a></p>
+                
+                <hr>
+                <h2><a href="#">Actor Tom Hanks shared his impression of the festival</a></h2>
+                <div class="posts_content">
+                    <p>On February 16, the 67th British Academy Awards Ceremony took place in London. Leonardo DiCaprio, Brad Pitt, Angelina
+                </div>
+                <p><a href="#">read</a></p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>
+            <a href="index.html">Main</a>
+            <a href="films.html">Films</a>
+            <a href="#">Serials</a>
+            <a href="rating.html">Rating of films</a>
+            <a href="contact.html">Contacts</a>
+        </p>
+        <p>kinopoisk.pendostan</p>
+    </footer>
